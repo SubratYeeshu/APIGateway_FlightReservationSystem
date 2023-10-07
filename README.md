@@ -1,5 +1,6 @@
-FRONTEND - MIDDLE-END - BACKEND
+# FRONTEND - MIDDLE-END - BACKEND
 
+- API Gateway can route requests to the appropriate service based on factors like URL path, HTTP method, or headers. This allows for flexible routing and load balancing, even in complex microservices architectures.
 - We need an intermediate layer between the client side and the microservices 
 - Using this middle end, when client sends request we will be able to make decision that which microservice will respond to this request
 - We can do message validation, response transformation, rate limiting
